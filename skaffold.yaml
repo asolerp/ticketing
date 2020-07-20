@@ -7,10 +7,7 @@ deploy:
 build:
   local:
     push: false
-  # googleCloudBuild:
-  #   projectId: ticketing-dev-283309
   artifacts:
-    # - image: us.gcr.io/ticketing-dev-283309/auth
     - image: asolerp/auth
       context: auth
       docker:
@@ -27,4 +24,3 @@ build:
         manual:
           - src: '**/*.js'
             dest: .
-      

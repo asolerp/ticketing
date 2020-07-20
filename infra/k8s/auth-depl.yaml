@@ -17,11 +17,10 @@ spec:
           image: asolerp/auth
           env:
             - name: JWT_KEY
-              valueFrom: 
+              valueFrom:
                 secretKeyRef:
                   name: jwt-secret
                   key: JWT_KEY
-          # image: us.gcr.io/ticketing-dev-283309/auth
 ---
 apiVersion: v1
 kind: Service

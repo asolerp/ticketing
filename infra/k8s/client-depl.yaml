@@ -1,13 +1,13 @@
 apiVersion: apps/v1
 kind: Deployment
-metadata: 
+metadata:
   name: client-depl
 spec:
   replicas: 1
   selector:
-    matchLabels: 
+    matchLabels:
       app: client
-  template: 
+  template:
     metadata:
       labels:
         app: client
