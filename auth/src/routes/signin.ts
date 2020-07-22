@@ -6,8 +6,8 @@ import { Password } from '../services/password'
 import jwt from 'jsonwebtoken'
 
 // Errors
-import { validateRequest } from '../middlewares/validate-request'
-import { BadRequestError } from '../errors/bad-request-error'
+import { validateRequest, BadRequestError } from '@asptickets/common'
+
 
 const router = express.Router()
 
