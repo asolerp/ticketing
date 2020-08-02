@@ -1,6 +1,6 @@
 {
-  "name": "@sgtickets/common",
-  "version": "1.0.16",
+  "name": "@asptickets/common",
+  "version": "1.0.9",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
