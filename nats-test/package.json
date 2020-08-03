@@ -1,16 +1,19 @@
 {
   "name": "nats-test",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "publisher": "ts-node-dev --rs --notify false src/publisher.ts",
-    "listener": "ts-node-dev --rs --notify false src/listener.ts"
+    "publisher": "ts-node-dev --notify false src/publisher.ts",
+    "listener": "ts-node-dev --notify false src/listener.ts"
   },
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@types/node": "^14.0.24",
-    "node-nats-streaming": "^0.3.2",
-    "ts-node-dev": "^1.0.0-pre.54",
-    "typescript": "^3.9.7"
+    "@types/node": "^13.11.1",
+    "node-nats-streaming": "^0.2.6",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
   }
 }

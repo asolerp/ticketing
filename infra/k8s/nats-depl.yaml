@@ -4,7 +4,7 @@ metadata:
   name: nats-depl
 spec:
   replicas: 1
-  selector: 
+  selector:
     matchLabels:
       app: nats
   template:
@@ -15,7 +15,7 @@ spec:
       containers:
         - name: nats
           image: nats-streaming:0.17.0
-          args: 
+          args:
             [
               '-p',
               '4222',
@@ -48,4 +48,3 @@ spec:
       protocol: TCP
       port: 8222
       targetPort: 8222
-
