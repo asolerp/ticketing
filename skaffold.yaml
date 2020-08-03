@@ -32,3 +32,12 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
+    - image: asolerp/orders
+      context: orders
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: 'src/**/*.ts'
+            dest: .
+        
