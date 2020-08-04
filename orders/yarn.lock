@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@asptickets/common@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@asptickets/common/-/common-1.0.12.tgz#f4c8b8bfc2bf393346663d320213269b1a994ae9"
+"@asptickets/common@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@asptickets/common/-/common-1.0.13.tgz#f3cd0a401ec530d63bbc59c36925ea4fa98beb55"
   dependencies:
     "@types/cookie-session" "^2.0.39"
     "@types/express" "^4.17.5"
